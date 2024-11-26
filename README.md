@@ -11,7 +11,7 @@ A sleek, modern tool that instantly generates Vercel preview deployment URLs fro
 
 Vercel Branch URL Generator streamlines the development workflow by automatically converting Git branch names into their corresponding Vercel preview deployment URLs. With a beautiful, responsive interface and real-time URL generation, it's the perfect companion for teams using Vercel for their deployments.
 
-![Demo Screenshot](path-to-your-screenshot.png)
+![Demo Screenshot](./public/screenshot.png)
 
 ## ✨ Features
 

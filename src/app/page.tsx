@@ -10,6 +10,7 @@ import {
 	CardTitle,
 } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
+import { cn } from '@/lib/utils'
 import { ArrowUpRight, LinkIcon } from 'lucide-react'
 import Link from 'next/link'
 import { useQueryState } from 'nuqs'
@@ -113,7 +114,7 @@ function BranchUrlGenerator() {
 					<div className="w-2 h-2 bg-success rounded-full animate-pulse" />
 				</CardFooter>
 			</Card>
-			<footer className="mt-8 text-center text-sm text-foreground-accent">
+			<footer className={cn('mt-8 text-center text-sm text-foreground-accent', projectName && 'hidden')}>
 				&copy; {new Date().getFullYear()} Yonatan Lavy. All rights reserved.
 			</footer>
 		</div>
